@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Ma'am due to the conlficting code in the project I resulted to using class and other attributes (Miko)-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Project Portfolio</title>
+
+    <style>
+        body {
+            background-color: #912828;
+            background-image: url('https://images.unsplash.com/photo-1519608487953-e999c86e7455');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        .top-ui {
+            position: fixed;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 85%;
+            padding: 5px 20px;
+            background-color: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            text-align: center;
+            z-index: 1000;
+            padding: 5px;
+        }
+
+        h1 {
+            color: #ADD8E6;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        
+    
+
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 65vh;
+            padding: 0 40px;
+        }
+
+        input[type="button"] {
+            padding: 20px 45px;
+            font-size: 25px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        input[type="button"]:hover {
+            transform: scale(1.1);
+        }
+
+        
+        .bottom-ui {
+            position: fixed;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 85%;
+            padding: 8px 20px;
+            background-color: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            text-align: center;
+            color: #F5F5DC;
+            z-index: 1000;
+        }
+
+        .bottom-ui p {
+            margin: 5px;
+        }
+
+        p {
+    color: #F5F5DC;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 85px;
+}
+    </style>
+</head>
+
+<body>
+<p>Please select a button below &lt;3:*</p>
+    <header class="top-ui">
+        <h1>Tres Sclopetarii</h1>
+    </header>
+
+   
+
+    
+
+    <div class="button-container">
+
+        <input type="button" value="Miko"
+            style="background-color: #3bdcdf; color: white;">
+
+        <input type="button" value="Johann"
+            style="background-color: #5af3ae; color: white;">
+
+        <input type="button" value="Lewis"
+            style="background-color: #f96635; color: white;">
+
+    </div>
+
+    <footer class="bottom-ui">
+        <p>Three-Person Portfolio</p>
+    </footer>
+
+</body>
+</html>
